@@ -1,0 +1,7 @@
+#include "resource.h"
+
+IDI_APP_ICON ICON "app.ico"
+IDR_SERVERS_JSON RCDATA "Servers.json"
+IDR_ORBITRON_REGULAR RCDATA "fonts\\Orbitron-Regular.ttf"
+IDR_ORBITRON_SEMIBOLD RCDATA "fonts\\Orbitron-SemiBold.ttf"
+IDR_ORBITRON_LICENSE RCDATA "fonts\\OFL.txt"

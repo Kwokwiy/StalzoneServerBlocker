@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8F1C2A1F-36A7-4C8B-BCA7-596365E92A3C}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4C3EE621-FAD9-4A8D-B438-62EC8C72BF16}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{89D91A9C-B108-476E-A95D-B7BE21B0AFF7}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StalzoneServerBlocker.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Servers.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SETUP.md" />
+    <None Include="fonts\OFL.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\Orbitron-Regular.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fonts\Orbitron-SemiBold.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
